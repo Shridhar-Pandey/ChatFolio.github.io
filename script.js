@@ -83,8 +83,17 @@ function waitAndResponce(inputText) {
             sendTextMessage(resumeString);
             break;
         case "skills":
-            sendTextMessage("<span class='sk'>I am currently pursuing Integrated MTech degree in Computer Science Engineering with Cyber Security.<br><br>I can comfortably write code in following languages :<br><span class='bold'>Python<br>C++<br>SQL<br>CSS<br>HTML<br>Javascript</span><br><br>I've experiance with following frameworks :<span class='bold'><br>Android<br>Flutter<br>ReactJs<br>GTK</span><br><br>I use <span class='bold'>Arch Linux</span> as daily driver on my HP Pavilion 15-ec0xxx<br>OS:Arch Linux<br>DE:Gnome(More often) Kde(often)<br>Favourite IDE:VSCode</span>");
+            sendTextMessage("<span class='sk'>I am currently pursuing an Integrated MTech degree in Computer Science Engineering with a focus on Cyber Security.<br><br>" +
+                "I am proficient in the following programming languages:<br>" +
+                "<span class='bold'>Python<br>MySQL<br>C++</span><br><br>" +
+                "I have experience with these frameworks and tools:<br>" +
+                "<span class='bold'>Scikit-learn<br>OpenCV<br>OpenCL<br>CUDA<br>Firebase<br>PyTorch<br>TensorFlow<br>Flask</span><br><br>" +
+                "I work with these tools and platforms:<br>" +
+                "<span class='bold'>Jupyter Notebook<br>Google Colab<br>Kubernetes<br>Docker<br>PostgreSQL<br>PowerBI<br>Vscode<br>AWS<br>Linux<br>Web<br>Windows<br>Arduino<br>Raspberry Pi</span><br><br>" +
+                "Additionally, I possess strong soft skills in:<br>" +
+                "<span class='bold'>Analytical thinking<br>Collaboration<br>Leadership<br>Event Management<br>Presentation skills<br>Effective communication</span></span>");
             break;
+
 
         case "education":
             sendTextMessage("I am currently pusuing Integrated MTech degree in Computer Science Engineering with Cyber Security from VIT Bhopal University<br>Passing Year : 2025<br><br>I have completed my 12th from KENDRIYA VIDYALAYA (NER) <br>Passing Year:2020<br>Result:80.50%<br><br>I have completed my Higher secondary school from KENDRIYA VIDYALAYA (NER)<br>Passing Year:2018 <br>Result:83.60%");
